@@ -1,0 +1,7 @@
+@model List<Asignatura>
+
+<strong>Multi vista parcial</strong>
+@foreach (var item in Model)
+{
+    <partial name="_AsignaturaSimple" model="item" />
+}

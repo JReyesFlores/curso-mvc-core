@@ -1,29 +1,22 @@
-@model Escuela
+@model Asignatura
 @* Para estructura un código razor fuertemente tipado debemos indicarle a que modelo hace referencia con
     [@model{modelo}] *@
 
 @{
-    ViewData["Title"] = "Información Escuela";
+    ViewData["Title"] = "Información Asignatura";
     //var demo = ViewData["cosaDinamica"];
 
     /* Si no localiza una plantilla asignada, por defecto le asignaría [_Layout] */
     Layout = "_Simple";
 }
 
-<h1>Escuela @ViewData["Title"]</h1>
+<h1>@ViewData["Title"]</h1>
 <h2>Nombre: @Model.Nombre</h2>
-<h3>Tipo de escuela: @Model.TipoEscuela</h3>
-<address>
-    <p>Dirección: @Model.Direccion</p>
-    <p>País: @Model.Pais</p>
-    <p>Ciudad: @Model.Ciudad</p>
-</address>
 
-<p>
-    <i>
-        @ViewBag.cosaDinamica / @ViewData["cosaDinamica"]
-    </i>
-</p>
+<strong>Vista parcial</strong>
+<partial name="_AsignaturaSimple" model="@Model" />
+<!-- Si la vista parcial no recibe el modelo, esta asumirá el modelo de la vista general -->
+
 @*
     @{a-z} => Razor (Me permite interactuar datos del backend[Controller] en el frontend[View], así como utilizar funciones
     propias del core)

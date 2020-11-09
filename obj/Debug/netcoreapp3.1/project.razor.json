@@ -14402,6 +14402,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Asignatura\\index.cshtml",
+      "TargetPath": "Views\\Asignatura\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Escuela\\index.cshtml",
       "TargetPath": "Views\\Escuela\\index.cshtml",
       "FileKind": "mvc"
@@ -14412,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Shared\\_AsignaturaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\_AsignaturaSimple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14429,11 @@
     {
       "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Shared\\_Simple.cshtml",
       "TargetPath": "Views\\Shared\\_Simple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Asignatura\\MultiAsignatura.cshtml",
+      "TargetPath": "Views\\Asignatura\\MultiAsignatura.cshtml",
       "FileKind": "mvc"
     },
     {

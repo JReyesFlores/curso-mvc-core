@@ -12,6 +12,10 @@ namespace curso_mvc_core.Controllers
             escuela.AnioDeCreacion = 2020;
             escuela.UniqueId = Guid.NewGuid().ToString();
             escuela.Nombre = "Platzi";
+            escuela.Direccion = "Av. Springfield 123";
+            escuela.Ciudad = "Bogota";
+            escuela.Pais = "Colombia";
+            escuela.TipoEscuela = TiposEscuela.Secundaria;
 
             /* ViewBag = Almacena datos dinamicos */
             ViewBag.cosaDinamica = "La monja";

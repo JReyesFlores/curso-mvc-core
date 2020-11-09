@@ -19,11 +19,15 @@ D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mv
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.TagHelpers.input.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.TagHelpers.output.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.RazorCoreGenerate.cache
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\index.cshtml.g.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\MultiAsignatura.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Escuela\index.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AsignaturaSimple.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Simple.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -36,4 +40,3 @@ D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mv
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.pdb
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.genruntimeconfig.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.csproj.CopyComplete
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Simple.cshtml.g.cs
