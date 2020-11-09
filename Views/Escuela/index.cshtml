@@ -1,17 +1,29 @@
-@model EscuelaModel
-@* Para estructura un código razor fuertemente tipado debemos indicarle a que modelo hace referencia con [@model {modelo}] *@
+@model Escuela
+@* Para estructura un código razor fuertemente tipado debemos indicarle a que modelo hace referencia con
+    [@model{modelo}] *@
 
 @{
     ViewData["Title"] = "Información Escuela";
+    //var demo = ViewData["cosaDinamica"];
+
+    /* Si no localiza una plantilla asignada, por defecto le asignaría [_Layout] */
+    Layout = "_Simple";
 }
 
-<h1>Escuela </h1>
+<h1>Escuela @ViewData["Title"]</h1>
 <h2>Nombre: @Model.Nombre</h2>
 <p>
-    <strong>Año de fundación: @Model.AnioFundacion</strong>
+    <strong>Año de fundación: @Model.AnioDeCreacion</strong>
 </p>
 
+<p>
+    <i>
+        @ViewBag.cosaDinamica / @ViewData["cosaDinamica"]
+    </i>
+</p>
 @*
     @{a-z} => Razor (Me permite interactuar datos del backend[Controller] en el frontend[View], así como utilizar funciones
     propias del core)
+    ViewBag => Almacena datos dinamicos.
+    ViewData => Muy similar al viewbag no obstante se extrae la información de diferente manera.
 *@

@@ -36,3 +36,4 @@ D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mv
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.pdb
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.genruntimeconfig.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.csproj.CopyComplete
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Simple.cshtml.g.cs
