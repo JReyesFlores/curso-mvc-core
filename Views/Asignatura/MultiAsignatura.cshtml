@@ -1,7 +1,12 @@
 @model List<Asignatura>
+@{
+    ViewData["Title"] = "Lista de Asignaturas";
+}
+
+<h1>@ViewData["Title"]</h1>
 
 <strong>Multi vista parcial</strong>
 @foreach (var item in Model)
 {
-    <partial name="_AsignaturaSimple" model="item" />
+    <partial name="_ObjetoEscuelaSimple" model="item" />
 }

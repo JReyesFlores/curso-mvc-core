@@ -1,0 +1,31 @@
+@model List<Alumno>
+@{
+    ViewData["Title"] = "Lista de alumnos";
+    //Layout = "_Simple";
+}
+
+<h1>@ViewData["Title"]</h1> 
+
+<strong>Lista de Alumno</strong>
+@*@foreach (var item in Model)
+{
+   <partial name="_ObjetoEscuelaSimple" model="item" />
+}*@
+
+<table class="table table-dark table-hover table-sm">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Nombre</th>
+                <th>@item.UniqueId</th>
+            </tr>
+        }
+    </tbody>
+</table>
