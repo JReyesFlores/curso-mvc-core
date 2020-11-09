@@ -1,0 +1,17 @@
+@model EscuelaModel
+@* Para estructura un código razor fuertemente tipado debemos indicarle a que modelo hace referencia con [@model {modelo}] *@
+
+@{
+    ViewData["Title"] = "Información Escuela";
+}
+
+<h1>Escuela </h1>
+<h2>Nombre: @Model.Nombre</h2>
+<p>
+    <strong>Año de fundación: @Model.AnioFundacion</strong>
+</p>
+
+@*
+    @{a-z} => Razor (Me permite interactuar datos del backend[Controller] en el frontend[View], así como utilizar funciones
+    propias del core)
+*@
