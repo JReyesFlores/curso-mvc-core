@@ -13,14 +13,22 @@ namespace curso_mvc_core.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+
+        [Route("[Controller]")]
+        [Route("[Controller]/Index")]
+        [Route("[Controller]/Index/{alumnoId}")]
+        public IActionResult Index(string alumnoId)
         {
             /*
             var alumno = new Alumno();
             alumno.Id = Guid.NewGuid().ToString();
             alumno.Nombre = "Jhon Phileppe Reyes Flores";
             */
-            var alumno = _context.Alumnos.FirstOrDefault();
+            var alumno = _context.Alumnos.Where(x => x.Id == alumnoId).FirstOrDefault();
+            if (alumno is null)
+            {
+                return View("MultiAlumno", _context.Alumnos.ToList());
+            }
 
             return View(alumno);
         }

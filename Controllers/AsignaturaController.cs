@@ -14,19 +14,35 @@ namespace curso_mvc_core.Controllers
         {
             this._context = context;
         }
-        public IActionResult Index()
+        /*public IActionResult Index()
         {
-            /*
-            //Desde un modelo
-            var asignatura = new Asignatura();
-            asignatura.Id = Guid.NewGuid().ToString();
-            asignatura.Nombre = "Programación";
-            */
+            ////Desde un modelo
+            //var asignatura = new Asignatura();
+            //asignatura.Id = Guid.NewGuid().ToString();
+            //asignatura.Nombre = "Programación";
+            
             var asignatura = _context.Asignaturas.FirstOrDefault();
 
             ViewBag.cosaDinamica = "La Monja - Asignatura";
             ViewBag.Fecha = DateTime.UtcNow;
 
+            return View(asignatura);
+        }
+        */
+
+        [Route("[Controller]")]
+        [Route("[Controller]/Index")]
+        [Route("[Controller]/Index/{asignaturaId}")]
+        public IActionResult Index(string asignaturaId)
+        {
+            var asignatura = (from asig in _context.Asignaturas
+                              where asig.Id == asignaturaId
+                              select asig).SingleOrDefault();
+
+            if (asignatura is null)
+            {
+                return View("MultiAsignatura", _context.Asignaturas.ToList());
+            }
             return View(asignatura);
         }
 
