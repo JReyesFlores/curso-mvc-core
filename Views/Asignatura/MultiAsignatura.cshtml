@@ -6,7 +6,10 @@
 <h1>@ViewData["Title"]</h1>
 
 <strong>Multi vista parcial</strong>
-@foreach (var item in Model)
-{
+@*@foreach (var item in Model)
+    {
     <partial name="_ObjetoEscuelaSimple" model="item" />
-}
+    }
+*@
+<!--Reutilizamos una vista debilmente tipada -->
+<partial name="_ListaObjetosEscuela" />

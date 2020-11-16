@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using curso_mvc_core.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +26,13 @@ namespace curso_mvc_core
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            //Aplicamos compatibilidad para versiones anteriores.
+            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
+
+            //Inyectamos la conexión a la base de datos
+            services.AddDbContext<EscuelaContext>(
+                options => options.UseInMemoryDatabase(databaseName: "dbtemp")
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

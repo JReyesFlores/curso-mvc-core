@@ -10,7 +10,7 @@ namespace curso_mvc_core.Controllers
         public IActionResult Index()
         {
             var asignatura = new Asignatura();
-            asignatura.UniqueId = Guid.NewGuid().ToString();
+            asignatura.Id = Guid.NewGuid().ToString();
             asignatura.Nombre = "Programación";
 
             ViewBag.cosaDinamica = "La Monja - Asignatura";
@@ -22,10 +22,10 @@ namespace curso_mvc_core.Controllers
         public IActionResult MultiAsignatura()
         {
             var listaAsignaturas = new List<Asignatura>(){
-                            new Asignatura{Nombre="Matemáticas", UniqueId= Guid.NewGuid().ToString()} ,
-                            new Asignatura{Nombre="Educación Física", UniqueId= Guid.NewGuid().ToString()},
-                            new Asignatura{Nombre="Castellano", UniqueId= Guid.NewGuid().ToString()},
-                            new Asignatura{Nombre="Ciencias Naturales", UniqueId= Guid.NewGuid().ToString()}
+                            new Asignatura{Nombre="Matemáticas", Id= Guid.NewGuid().ToString()} ,
+                            new Asignatura{Nombre="Educación Física", Id= Guid.NewGuid().ToString()},
+                            new Asignatura{Nombre="Castellano", Id= Guid.NewGuid().ToString()},
+                            new Asignatura{Nombre="Ciencias Naturales", Id= Guid.NewGuid().ToString()}
                 };
 
             ViewBag.cosaDinamica = "La Monja - MultiAsignatura";

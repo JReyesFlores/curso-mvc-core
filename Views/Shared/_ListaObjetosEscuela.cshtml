@@ -1,0 +1,22 @@
+@*
+    * Ya no válida el tipo de objeto a recepcionar
+    * @model List<ObjetoEscuelaBase>
+*@
+
+<table class="table table-dark table-hover table-sm">
+    <thead>
+        <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Nombre</th>
+                <th>@item.Id</th>
+            </tr>
+        }
+    </tbody>
+</table>

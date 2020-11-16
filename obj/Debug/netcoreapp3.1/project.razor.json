@@ -14427,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Shared\\_ListaObjetosEscuela.cshtml",
+      "TargetPath": "Views\\Shared\\_ListaObjetosEscuela.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Proyectos\\Practicas\\.Net Core\\curso-mvc-core\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

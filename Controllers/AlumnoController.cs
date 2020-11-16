@@ -11,7 +11,7 @@ namespace curso_mvc_core.Controllers
         public IActionResult Index()
         {
             var alumno = new Alumno();
-            alumno.UniqueId = Guid.NewGuid().ToString();
+            alumno.Id = Guid.NewGuid().ToString();
             alumno.Nombre = "Jhon Phileppe Reyes Flores";
 
             return View(alumno);
@@ -41,7 +41,7 @@ namespace curso_mvc_core.Controllers
                                from a1 in apellido1
                                select new Alumno { Nombre = $"{n1} {n2} {a1}" };
 
-            return listaAlumnos.OrderBy((al) => al.UniqueId).ToList();
+            return listaAlumnos.OrderBy((al) => al.Id).ToList();
         }
     }
 }
