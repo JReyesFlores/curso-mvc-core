@@ -1,6 +1,5 @@
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\bin\Debug\netcoreapp3.1\curso-mvc-core.exe
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\bin\Debug\netcoreapp3.1\curso-mvc-core.deps.json
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\bin\Debug\netcoreapp3.1\curso-mvc-core.runtimeconfig.json
@@ -57,6 +56,9 @@ D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mv
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.MvcApplicationPartsAssemblyInfo.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.RazorAssemblyInfo.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.RazorAssemblyInfo.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\staticwebassets\curso-mvc-core.StaticWebAssets.Manifest.cache
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\staticwebassets\curso-mvc-core.StaticWebAssets.xml
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\scopedcss\bundle\curso-mvc-core.styles.css
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.TagHelpers.input.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.TagHelpers.output.cache
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.RazorCoreGenerate.cache
@@ -64,6 +66,9 @@ D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Vi
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Alumno\MultiAlumno.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\index.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\MultiAsignatura.cshtml.g.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Create.cshtml.g.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Index.cshtml.g.cs
+D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Curso\MultiCurso.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Escuela\index.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -79,11 +84,6 @@ D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mv
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.RazorTargetAssemblyInfo.cs
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.Views.pdb
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.csproj.CopyComplete
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\staticwebassets\curso-mvc-core.StaticWebAssets.Manifest.cache
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\staticwebassets\curso-mvc-core.StaticWebAssets.xml
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.dll
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.pdb
 D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\curso-mvc-core.genruntimeconfig.cache
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Index.cshtml.g.cs
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Curso\MultiCurso.cshtml.g.cs
-D:\Proyectos\Practicas\.Net Core\curso-mvc-core\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Create.cshtml.g.cs

@@ -30,8 +30,12 @@ namespace curso_mvc_core
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
 
             //Inyectamos la conexión a la base de datos
-            services.AddDbContext<EscuelaContext>(
+            /*services.AddDbContext<EscuelaContext>(
                 options => options.UseInMemoryDatabase(databaseName: "dbtemp")
+            );*/
+            string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionSQL");
+            services.AddDbContext<EscuelaContext>(
+                options => options.UseSqlServer(connString)
             );
         }
 

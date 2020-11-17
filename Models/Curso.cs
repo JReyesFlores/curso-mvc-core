@@ -6,7 +6,8 @@ namespace curso_mvc_core.Models
 {
     public class Curso : ObjetoEscuelaBase
     {
-        [Required]
+        [Required(ErrorMessage = "El nombre del curso es requerido")]
+        [StringLength(5)]
         public override string Nombre { get => base.Nombre; set => base.Nombre = value; }
         public string EscuelaId { get; set; }
         public Escuela Escuela { get; set; }
@@ -14,6 +15,9 @@ namespace curso_mvc_core.Models
         public List<Alumno> Alumnos { get; set; }
         public TiposJornada Jornada { get; set; }
 
+        [Display(Prompt = "Dirección correspondencia", Name = "Address")]
+        [Required(ErrorMessage = "Se requiere incluir una dirección")]
+        [MinLength(10, ErrorMessage = "La Longitud mínima es 10.")]
         public string Direccion { get; set; }
     }
 }
