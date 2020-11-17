@@ -29,13 +29,21 @@ namespace curso_mvc_core
             //Aplicamos compatibilidad para versiones anteriores.
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
 
-            //Inyectamos la conexión a la base de datos
+            //Inyectamos la conexión a la base de datos temporal
             /*services.AddDbContext<EscuelaContext>(
                 options => options.UseInMemoryDatabase(databaseName: "dbtemp")
             );*/
-            string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionSQL");
+
+            //Inyectamos la conexión a la base de datos SQL Server
+            /*string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionSQL");
             services.AddDbContext<EscuelaContext>(
                 options => options.UseSqlServer(connString)
+            );*/
+
+            //Inyectamos la conexión a la base de datos PostgreSQL
+            string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionPostgreSQL");
+            services.AddDbContext<EscuelaContext>(
+                options => options.UseNpgsql(connString)
             );
         }
 
