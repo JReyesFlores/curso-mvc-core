@@ -35,16 +35,16 @@ namespace curso_mvc_core
             );*/
 
             //Inyectamos la conexión a la base de datos SQL Server
-            /*string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionSQL");
+            string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionSQL");
             services.AddDbContext<EscuelaContext>(
                 options => options.UseSqlServer(connString)
-            );*/
+            );
 
             //Inyectamos la conexión a la base de datos PostgreSQL
-            string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionPostgreSQL");
+            /*string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionPostgreSQL");
             services.AddDbContext<EscuelaContext>(
                 options => options.UseNpgsql(connString)
-            );
+            );*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
